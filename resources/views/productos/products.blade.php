@@ -15,7 +15,7 @@
                 </div>
             </div>
             <div class="row align-items-end" style="height: 33%;">      
-                <p class="btn-holder"><a href="{{ route('add_to_cart', $product->id) }}" class="btn btn-primary btn-block text-center" role="button">Agregar al carro</a> </p>
+                <p class="btn-holder"><a href="{{ route('add_to_cart', $product->id) }}" class="btn btn-success btn-block text-center" role="button">Agregar</a> </p>
             </div>    
         </div>
     </div>
